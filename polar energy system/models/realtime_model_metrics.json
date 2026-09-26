@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-09-12 13:49:40",
+  "total_training_hours": 9264,
+  "xgboost": {
+    "load": {
+      "R2": 0.7093,
+      "MAE": 2.082,
+      "RMSE": 2.647,
+      "Accuracy": 96.47
+    },
+    "solar": {
+      "R2": 0.9745,
+      "MAE": 0.77,
+      "RMSE": 2.31,
+      "Accuracy": 95.69
+    },
+    "wind": {
+      "R2": 0.9926,
+      "MAE": 0.536,
+      "RMSE": 2.078,
+      "Accuracy": 96.54
+    },
+    "overall_accuracy": 96.23
+  },
+  "pytorch": {
+    "load": {
+      "R2": 0.6162,
+      "MAE": 2.409,
+      "RMSE": 3.041,
+      "Accuracy": 95.91
+    },
+    "solar": {
+      "R2": 0.9635,
+      "MAE": 1.99,
+      "RMSE": 2.766,
+      "Accuracy": 88.86
+    },
+    "wind": {
+      "R2": 0.8851,
+      "MAE": 4.677,
+      "RMSE": 8.175,
+      "Accuracy": 69.87
+    },
+    "overall_accuracy": 84.88
+  }
+}
